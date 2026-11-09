@@ -1,16 +1,17 @@
 name: RUN_E2E_TESTS_DOTNET8_WCON
-on:
-  push:
-    branches:
-      - master
-      - dev
-      - releases/*
-    paths-ignore:
-      - '**.md'
-  pull_request:
-    paths-ignore:
-      - '**.md'
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     branches:
+#       - master
+#       - dev
+#       - releases/*
+#     paths-ignore:
+#       - '**.md'
+#   pull_request:
+#     paths-ignore:
+#       - '**.md'
+# 
 permissions:
   id-token: write
 

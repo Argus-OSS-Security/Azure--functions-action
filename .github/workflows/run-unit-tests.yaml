@@ -1,15 +1,16 @@
 name: RUN_UNIT_TESTS
 
-on:
-  push:
-    branches:
-      - master
-      - dev
-  pull_request:
-    branches:
-      - master
-      - dev
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     branches:
+#       - master
+#       - dev
+#   pull_request:
+#     branches:
+#       - master
+#       - dev
+# 
 env:
   NODE_VERSION: '24.x'
 
